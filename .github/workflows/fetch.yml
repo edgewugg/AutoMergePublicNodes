@@ -41,9 +41,9 @@ jobs:
         git add snippets/
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
     - name: 推送更改
-      uses: ad-m/github-push-action@master
-      with:
-        branch: master
+      run: |
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        git push origin master
 
     - name: 计算要清除缓存的文件
       id: purge_urls
