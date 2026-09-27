@@ -38,17 +38,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇭🇰HK_1|1.8MB/s
-  network: ws
-  port: 8030
-  server: 54.46.72.234
-  servername: spjd.cbc.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 37665857-8b6e-4daa-8231-3e2927221558
-  ws-opts:
-    headers:
-      Host: spjd.cbc.qzz.io
-    path: /proxyip=ProxyIP.US.CMLiussss.net
+- auth: f15900b5-f86b-432d-a67c-45325dc66a2d
+  down: 100
+  name: 🇭🇰HK_1|1.2MB/s
+  password: f15900b5-f86b-432d-a67c-45325dc66a2d
+  port: 50898
+  ports: 50000-53000
+  server: 82.152.160.245
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: hysteria2
+  up: 20
