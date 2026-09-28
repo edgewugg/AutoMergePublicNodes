@@ -9,7 +9,29 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇸🇪SE_1|1.9MB/s
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_1|1.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 51.20.72.15
+  type: ss
+  udp: true
+- name: 🇸🇪SE_2|1015KB/s
+  password: None
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_3|1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.60.213.145
+  type: ss
+  udp: true
+- name: 🇸🇪SE_4|1.1MB/s
   password: None
   port: 443
   server: 146.70.242.146
@@ -17,17 +39,3 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇸🇪SE_2|4.0MB/s
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_3|2.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 51.20.86.152
-  type: ss

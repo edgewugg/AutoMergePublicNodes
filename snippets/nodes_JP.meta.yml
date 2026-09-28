@@ -1,23 +1,4 @@
 proxies:
-- name: 🇯🇵182609 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: WduP1W9fiqZLfRA93UKXRyN83l6
-  password: 879ec4ed-139e-4204-82c4-4488aaae4699
-  port: 4712
-  server: 104.222.222.222
-  sni: domin.com
-  tls: false
-  type: hysteria2
-- cipher: aes-128-gcm
-  name: 🇯🇵 日本|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36609
-  server: gd.bjnet2.com
-  type: ss
 - alterId: 0
   cipher: auto
   name: 日本|@ripaojiedian
@@ -25,6 +6,7 @@ proxies:
   port: '443'
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
   servername: Z9FfBx3zs2q5O0BG.v.3dns.vip
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -39,6 +21,7 @@ proxies:
   port: '443'
   server: kQov7UKaDknXb8a3.v.3dns.vip
   servername: kQov7UKaDknXb8a3.v.3dns.vip
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -53,6 +36,7 @@ proxies:
   port: '443'
   server: kneNaKHeSXnZH259.v.3dns.vip
   servername: kneNaKHeSXnZH259.v.3dns.vip
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -63,28 +47,40 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|2.5MB/s
+  name: 🇯🇵JP_1|1.8MB/s
   network: tcp
-  port: '33561'
+  port: '38830'
   reality-opts:
-    public-key: 158SMilJQo8T-Fi8-T1354xZsVFCYxA8dXQstKbIdVs
-    short-id: '!!str 6b9e61372a82002c'
-  server: 13.158.67.183
+    public-key: 5E5p5boHrgCyBlt5qZPX1XozU9I90JoBgS4zmXngllI
+    short-id: '!!str ac12ed79'
+  server: 13.230.30.102
   servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
   uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇯🇵JP_2|4.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: '52454'
-  server: 45.88.43.116
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_3|1.6MB/s
+  network: tcp
+  port: 33561
+  reality-opts:
+    public-key: 158SMilJQo8T-Fi8-T1354xZsVFCYxA8dXQstKbIdVs
+    short-id: '!!str 6b9e61372a82002c'
+  server: 13.158.67.183
+  servername: www.cloudflare.com
   skip-cert-verify: true
-  sni: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  xudp: true
+- auth: 96ab5cd282733fd4c312a61f972f330a
+  name: 🇯🇵JP_4|2.3MB/s
+  password: 96ab5cd282733fd4c312a61f972f330a
+  port: 443
+  server: vp3.yysyy.online
   type: hysteria2
-  up: ''
+  udp: true
