@@ -39,7 +39,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|2.6MB/s
+  name: 🇸🇬SG_1|4.8MB/s
   port: 33102
   server: 112.49.63.11
   servername: sgg.knhqf.com
@@ -48,11 +48,39 @@ proxies:
   type: vless
   udp: true
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-- flow: xtls-rprx-vision
-  name: 🇸🇬SG_2|1.3MB/s
-  port: 33102
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_2|2.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3QQxF4eV_tdOD8Z5lU4PBIWFmU-pRZBvBxNTNCZBpEU
+    short-id: '!!str aaf565ccdea967'
+  server: bgroup.sg1.ilovegairport.com
+  servername: ap-southeast-1.console.aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f354744d-21d9-4836-9934-4989e1c4d877
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_3|2.2MB/s
+  network: tcp
+  port: '33102'
   server: 27.44.143.169
   servername: sgg.knhqf.com
   tls: true
   type: vless
+  udp: true
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+  xudp: true
+- flow: xtls-rprx-vision
+  name: 🇸🇬SG_4|2.0MB/s
+  port: 33102
+  server: 27.155.117.209
+  servername: sgg.knhqf.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
