@@ -9,19 +9,3 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|1.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
-    short-id: '!!str '
-  server: 143.246.193.73
-  servername: www.blocket.se
-  tls: true
-  type: vless
-  udp: true
-  uuid: 71e9e770-bfc6-11f1-8b5c-54db13ea7d40
-  xudp: true
