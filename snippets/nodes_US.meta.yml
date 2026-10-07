@@ -53,21 +53,19 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_3|1.0MB/s
-  password: None
+- name: 🇺🇸US_1|1.2MB/s
   port: 443
-  server: berniesbodybla.fun
-  skip-cert-verify: false
+  server: 121.127.34.82
+  skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
+- name: 🇺🇸US_2|3.5MB/s
+  password: ''
+  port: '8885'
+  server: 38.79.114.43
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -195,6 +193,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
 - name: US_speednode_0141
   port: 443
   server: 38.28.193.188
