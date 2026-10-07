@@ -1,8 +1,14 @@
 proxies:
-- name: 🇬🇧GB_1|1.1MB/s
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  name: 🇬🇧GB_1|1.9MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: yg.mangshe.xyz
+  skip-cert-verify: true
+  type: hysteria2
+- name: 🇬🇧GB_2|2.5MB/s
   port: 443
-  server: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com
+  server: 37.120.233.34
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
