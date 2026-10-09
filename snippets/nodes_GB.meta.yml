@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- name: 🇬🇧GB_1|2.8MB/s
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|3.1MB/s
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|2.1MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

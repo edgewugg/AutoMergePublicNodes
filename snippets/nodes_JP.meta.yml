@@ -52,9 +52,12 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
   encryption: none
-  name: 🇯🇵JP_1|4.3MB/s
+  name: 🇯🇵JP_1|4.5MB/s
   network: ws
   port: '443'
   server: saas.sin.fan
@@ -66,7 +69,7 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chrome
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
   xudp: true
