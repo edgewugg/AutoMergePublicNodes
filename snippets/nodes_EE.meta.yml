@@ -1,11 +1,8 @@
 proxies:
-- name: 'A - 🇪🇪 EE 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.80.110.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: /?ed=2560
+- cipher: aes-128-gcm
+  name: 🇪🇪EE_1|3.7MB/s
+  password: 70a5c510-d56d-43e7-b150-9c00c969bd50
+  port: 35194
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
