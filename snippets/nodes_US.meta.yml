@@ -53,151 +53,31 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: GunService
-  name: 🇺🇸US_1|1.8MB/s
-  network: grpc
-  port: 8444
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-  server: 147.45.60.160
-  servername: github.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
-- name: 🇺🇸US_2|1.0MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- name: 🇺🇸US_3|3.4MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_4|1.8MB/s
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_5|2.1MB/s
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|2.6MB/s
-  port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|4.3MB/s
-  port: 443
-  server: 34.216.155.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|1.1MB/s
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|2.3MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|1.1MB/s
+- name: 🇺🇸US_1|1.4MB/s
   port: 443
   server: 198.44.135.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_11|3.6MB/s
-  password: None
+- name: 🇺🇸US_2|1.2MB/s
   port: 443
-  server: 52.55.81.168
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇺🇸US_12|1.1MB/s
+- name: 🇺🇸US_3|1.1MB/s
   port: 443
-  server: 149.88.21.140
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_13|1.4MB/s|K001-260618
-  password: ''
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
+- cipher: aes-128-gcm
+  name: 🇺🇸US_4|4.8MB/s
+  password: d63d34c4-1bdb-446a-bdf0-7667e30a9173
+  port: '40034'
+  server: ruot.ayucloudservices.nl
+  type: ss
   udp: true
-  username: ''
-- name: 🇺🇸US_14|2.4MB/s
-  port: 443
-  server: 162.244.227.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|2.2MB/s
-  port: 8443
-  server: 44.217.145.28
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_16|2.3MB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: 🇺🇸US_17|1.1MB/s
-  port: 8090
-  server: 184.188.139.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_18|1.2MB/s
-  port: 8090
-  server: 24.142.229.178
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_19|3.6MB/s
-  password: ''
-  port: '1080'
-  server: 52.128.241.109
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: 🇺🇸US_20|2.5MB/s
-  password: ''
-  port: '9002'
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
