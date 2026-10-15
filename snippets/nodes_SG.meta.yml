@@ -37,51 +37,41 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇸🇬SG_1|1.7MB/s
-  port: 443
-  server: 156.146.56.97
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|4.1MB/s
+  network: ws
+  port: '443'
+  server: cf.090227.xyz
+  servername: 20664.pages.dev
   tls: true
-  type: http
-- name: 🇸🇬SG_2|2.1MB/s
+  type: vless
+  udp: true
+  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+  ws-opts:
+    headers:
+      Host: 20664.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /?ed=2048fp=random
+  xudp: true
+- name: 🇸🇬SG_2|1.3MB/s
   password: '!!str 1234'
   port: '2080'
-  server: 13.250.6.249
+  server: 13.229.91.101
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇸🇬SG_3|1.6MB/s
+- name: 🇸🇬SG_3|4.6MB/s
   password: '!!str 1234'
   port: '2080'
-  server: 47.129.155.166
+  server: 13.229.89.107
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇸🇬SG_4|1.2MB/s
+- name: 🇸🇬SG_4|1.6MB/s
   password: '!!str 1234'
   port: '2080'
-  server: 13.212.249.115
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_5|1.6MB/s
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.212.207.226
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_6|1.3MB/s
-  password: '!!str 1234'
-  port: '2080'
-  server: 52.221.234.145
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_7|1.5MB/s
-  password: '!!str 1234'
-  port: '2080'
-  server: 54.255.133.243
+  server: 13.212.87.168
   skip-cert-verify: true
   type: http
   username: '1234'
