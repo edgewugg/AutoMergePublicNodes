@@ -9,9 +9,3 @@ proxies:
     headers:
       Host: vms.lifetime51.workers.dev
     path: /?ed=2560
-- name: 🇪🇪EE_1|1023KB/s
-  port: 443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  tls: true
-  type: http

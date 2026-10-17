@@ -32,11 +32,3 @@ proxies:
   tls: true
   type: vless
   uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
-- name: 🛩️39@oneclickvpnkeys
-  password: gf1
-  port: 443
-  server: 173.212.201.85
-  skip-cert-verify: true
-  sni: www.docker.com
-  tls: false
-  type: hysteria2
