@@ -374,22 +374,25 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG_1|1.8MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 18.143.63.164
-  type: ss
+- alterId: '2'
+  cipher: auto
+  name: 🇳🇱NL_1|4.1MB/s
+  network: tcp
+  port: '30829'
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- name: 🇰🇷KR_1|1.9MB/s
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjhg.m2k699.com
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 🇳🇱NL_2|2.7MB/s
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
