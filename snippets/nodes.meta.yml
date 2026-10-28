@@ -107,22 +107,11 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 🇪🇪201602 | ⚡️Telegram = t.me/S...
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  port: 4443
-  server: ee2.obxodvpn.us
-  skip-cert-verify: false
-  sni: nl1.obxodvpn.us
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 🇳🇱201577 | ⚡️Telegram = t.me/S...
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  port: 4443
-  server: nl1.obxodvpn.us
-  skip-cert-verify: false
-  sni: nl1.obxodvpn.us
+- name: 🇵🇱201942 | ⚡️Telegram = t.me/S...
+  password: 10be1dad-9952-4c5e-aa30-db435f69b727
+  port: 4444
+  server: 13.143.189.71
+  sni: pl3.nexfile.net
   tls: false
   type: hysteria2
 - name: '@V2rayng_mar_ket'
@@ -173,14 +162,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '@v2ray_configs_pools 🌍 ⚡️'
-  password: Hc9_NX924RE_Mn948rgrwiub_m93V84nll
-  port: 9443
-  server: 5.254.51.108
-  skip-cert-verify: false
-  sni: keyhop-voxility-at.dynuddns.com
   tls: false
   type: hysteria2
 - name: 🩵+@Azarakhsh_Proxy+🩷
@@ -309,6 +290,19 @@ proxies:
   sni: srv-3fc7c9.21freedom.net
   tls: false
   type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: 🇫🇷FR_1|1009KB/s
+  obfs: salamander
+  obfs-password: a56415ff1be77383
+  password: de698ab0-709d-413f-b21f-a914e5e7c603
+  port: '20230'
+  server: 51.75.118.79
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+  up: ''
 - name: '@vmess_ir'
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
@@ -686,80 +680,27 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇭🇰HK_1|1.1MB/s
-  password: 298c5651d3015d7cee9e8411eaa0bd72
-  port: 12010
-  server: 124.151.45.214
+- name: 🇸🇬SG_1|4.3MB/s
+  password: '1234'
+  port: 2080
+  server: 47.129.174.248
   skip-cert-verify: true
-  sni: apis.99912345.xyz
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_1|1.2MB/s
-  port: 40583
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
   type: http
-- name: 🇩🇪DE_1|2.4MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
+  username: '1234'
+- name: 🇸🇬SG_2|4.3MB/s
+  password: '1234'
+  port: '2080'
+  server: 13.229.57.163
   skip-cert-verify: true
-  tls: true
   type: http
-- name: 🇺🇸US_1|1.4MB/s
-  port: 443
-  server: 121.127.34.82
+  username: '1234'
+- name: 🇸🇬SG_3|4.1MB/s
+  password: '1234'
+  port: '2080'
+  server: 54.151.242.187
   skip-cert-verify: true
-  tls: true
   type: http
-- name: 🇩🇪DE_2|1.2MB/s|R002-260618
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇵🇱PL_1|1.8MB/s
-  password: None
-  port: 443
-  server: 37.120.156.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇦🇹AT_1|1.0MB/s
-  port: 443
-  server: 146.70.244.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_1|1.3MB/s
-  password: None
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇭🇷HR_1|1.3MB/s
-  password: None
-  port: 443
-  server: 154.47.29.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇪🇪EE_1|1.8MB/s
-  password: None
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  username: '1234'
 - client-fingerprint: chrome
   name: AT_speednode_0001
   network: ws
