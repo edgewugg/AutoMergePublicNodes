@@ -53,16 +53,16 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|1.0MB/s|K001-260618
-  password: None
-  port: 443
-  server: 148.135.10.80
+- name: 🇺🇸US_1|3.3MB/s
+  port: 8443
+  server: 45.150.164.18
   skip-cert-verify: true
-  sub_tag: K001-260618
   tls: true
   type: http
-  udp: true
-  username: ''
+- name: 🇺🇸US_2|2.4MB/s
+  port: 44499
+  server: 45.61.188.134
+  type: socks5
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

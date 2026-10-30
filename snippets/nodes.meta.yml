@@ -107,16 +107,6 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: '@V2rayng_mar_ket'
-  obfs: salamander
-  obfs-password: 87d72c2949c0ca85bbda09459244e374
-  password: 35d26d53bc
-  port: 11592
-  server: 109.104.153.124
-  skip-cert-verify: false
-  sni: srv-0e5387.frd21.ru
-  tls: false
-  type: hysteria2
 - name: '@Begoo_VPN ²⁹⁰'
   obfs: salamander
   obfs-password: dzcb7hv6i2kx2zze
@@ -147,46 +137,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇸🇪203219 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 9765192816a553687801bb170ee1c351
-  password: EjPhwMiHdy7zTIeM5kP0ZA
-  port: 25000
-  server: fenrir.cc.cd
-  skip-cert-verify: false
-  sni: fenrir.cc.cd
-  tls: false
-  type: hysteria2
-- name: 🇳🇱NL-🚀@VPNine1
-  obfs: salamander
-  obfs-password: HysteriaHowdy
-  password: HowdyHysteria2023w0W
-  port: 8443
-  server: hysteria.udpgw.com
-  skip-cert-verify: true
-  sni: sni-here.com
-  tls: false
-  type: hysteria2
-- name: 🇸🇪203174 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 9765192816a553687801bb170ee1c351
-  password: HyDouble_f1NgaW7sHbMefhNf
-  port: 25000
-  server: fenrir.cc.cd
-  skip-cert-verify: false
-  sni: fenrir.cc.cd
-  tls: false
-  type: hysteria2
-- name: 🇸🇪203220 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 9765192816a553687801bb170ee1c351
-  password: HyWarp_1Duy5hQD__8PVu-k
-  port: 25000
-  server: fenrir.cc.cd
-  skip-cert-verify: false
-  sni: fenrir.cc.cd
-  tls: false
-  type: hysteria2
 - name: 🩵+@Azarakhsh_Proxy+🩷
   obfs: salamander
   obfs-password: KevinZakarian
@@ -197,12 +147,13 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 'Channel : @proxy_kafee'
+- name: 'Channel : @Daily_Configs'
   obfs: salamander
   obfs-password: SalamanderNL2026
   password: NL2026hy
   port: 8443
   server: 147.45.149.88
+  skip-cert-verify: false
   sni: nl.nobelchat.ru
   tls: false
   type: hysteria2
@@ -298,14 +249,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '@V2rayng_mar_ket #1'
+- name: 🇭🇰203438 | ⚡️Telegram = t.me/S...
   obfs: salamander
-  obfs-password: ec66908dbc46e6920143d9b684adf277
-  password: ca78f919e6
-  port: 11592
-  server: 155.94.134.183
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  port: 5010
+  server: 152.32.254.68
   skip-cert-verify: false
-  sni: srv-3fc7c9.21freedom.net
+  sni: nas.aizhzo.com
   tls: false
   type: hysteria2
 - name: '@vmess_ir'
@@ -338,7 +289,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '@confiig_hub #1'
+- name: '@vpnbaz🍂 #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -685,62 +636,80 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|1.0MB/s|K001-260618
+- name: 🇮🇹IT_1|2.7MB/s
   password: None
   port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇬🇧GB_1|1.1MB/s
-  password: None
-  port: 443
-  server: 185.164.138.156
+  server: 185.183.105.146
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇦🇹AT_1|1.2MB/s
+- name: 🇵🇱PL_1|1.3MB/s
   password: None
   port: 443
-  server: 146.70.244.2
+  server: 37.120.156.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_1|1012KB/s
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇱🇺LU_1|2.3MB/s
+  password: None
+  port: 443
+  server: 185.221.132.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇭CH_1|2.7MB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_2|1.0MB/s
+- name: 🇺🇸US_1|3.3MB/s
+  port: 8443
+  server: 45.150.164.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇿CZ_1|1.0MB/s
   password: None
   port: 443
-  server: 212.102.63.61
+  server: 185.216.35.130
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇰🇷KR_1|1.1MB/s
-  password: ''
-  port: '1080'
-  server: 43.155.143.227
+- name: 🇨🇿CZ_2|1.5MB/s
+  port: 443
+  server: 185.216.35.66
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇮🇹IT_2|1.1MB/s
+  password: None
+  port: 443
+  server: 185.183.105.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇳🇴NO_1|1.1MB/s
+  password: None
+  port: 9443
+  server: 146.70.170.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_2|2.4MB/s
+  port: 44499
+  server: 45.61.188.134
   type: socks5
-  username: ''
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: neurex
-  name: 🇳🇱NL_1|1.4MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-    short-id: '27350908de933e09'
-  server: 5.149.248.151
-  servername: nla.kosmosapp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7aad73a9-a0ff-4fad-9142-4f5c7c6bb2c1
-  xudp: true
 - client-fingerprint: chrome
   name: AT_speednode_0001
   network: ws
