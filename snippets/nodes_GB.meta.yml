@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- name: 🇬🇧204020 | ⚡️Telegram = t.me/S...
+  password: 6da2c981-8c77-4340-bda3-93399b7aea26
+  port: 443
+  server: 163.245.41.48
+  sni: blogs.blog-forme.ru
+  tls: false
+  type: hysteria2
+- name: 🇬🇧GB_1|2.6MB/s
+  password: None
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
