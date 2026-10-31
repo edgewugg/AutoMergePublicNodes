@@ -112,7 +112,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK_1|2.0MB/s
+  name: 🇭🇰HK_1|1.3MB/s
   network: ws
   port: '53617'
   server: az-1.linkaa.xyz
@@ -127,3 +127,7 @@ proxies:
       Host: az-1.linkaa.xyz
     path: /game/resources
   xudp: true
+- name: 🇭🇰HK_2|4.1MB/s
+  port: 1080
+  server: 34.150.120.78
+  type: socks5
