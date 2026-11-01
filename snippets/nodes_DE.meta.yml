@@ -9,14 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪204155 | ⚡️Telegram = t.me/S...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 18.193.79.104
-  skip-cert-verify: true
-  sni: 18.193.79.104
-  tls: false
-  type: hysteria2
 - name: 🇩🇪204269 | ⚡️Telegram = t.me/S...
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -25,21 +17,26 @@ proxies:
   sni: 3.76.221.4
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1.9MB/s
-  port: 443
-  server: 193.233.75.115
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_1|2.2MB/s
+  network: tcp
+  port: '63053'
+  server: 179.253.179.109
+  servername: de2.derevohom.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
+  xudp: true
+- name: DK_speednode_0006
+  port: 9002
+  server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|1.3MB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_3|2.7MB/s
+  udp: true
+- name: 🇩🇪DE_3|2.6MB/s
   password: None
   port: 443
   server: 149.36.50.157
@@ -47,63 +44,44 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_4|2.1MB/s
+- name: 🇩🇪DE_4|3.1MB/s
   port: 9002
   server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_5|2.5MB/s
-  password: None
-  port: 9443
-  server: 213.177.229.161
+- name: 🇩🇪DE_5|1.2MB/s
+  port: 443
+  server: 217.92.132.233
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|3.2MB/s
-  password: None
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- alterId: '0'
-  cipher: auto
-  name: 🇩🇪DE_7|2.6MB/s
-  network: ws
-  port: '443'
-  server: dBcaeS0WKJRoAhsQ.v.3dns.vip
-  servername: dBcaeS0WKJRoAhsQ.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: dBcaeS0WKJRoAhsQ.v.3dns.vip
-    path: /ws-vmess
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: edge
+- client-fingerprint: firefox
   encryption: none
-  name: 🇩🇪DE_8|2.9MB/s
-  network: xhttp
-  port: '443'
-  server: f1.greewebservices.ir
-  servername: default.ssl.fastly.net
+  name: 🇩🇪DE_6|2.5MB/s
+  network: tcp
+  port: '63080'
+  server: 179.253.179.109
+  servername: de2.derevohom.xyz
   tls: true
   type: vless
   udp: true
-  uuid: f234330e-f9df-46e3-8f60-b2af5173c147
-  xhttp-opts:
-    host: Calmly-vibrant-dolphin-rosewood.global.ssl.fastly.net
-    mode: auto
-    x-padding-bytes: 100-1000
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_7|1.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 2IylNqpuTBeUvd333tXWY6i0l8nkH6o5qfRVKZm6FA0
+    short-id: '!!str e0aadc6f38ff06a8'
+  server: 200.169.184.168
+  servername: tm6.24convertflow.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6036c28a-8db2-432e-8118-ff0c16641ad0
   xudp: true
 - name: DE_speednode_0004
   port: 443

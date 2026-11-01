@@ -1,7 +1,15 @@
 proxies:
+- name: 🇷🇺RU_1|1.7MB/s
+  password: 'null'
+  port: 443
+  server: 178.219.43.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.3MB/s
+  name: 🇷🇺RU_2|3.4MB/s
   port: 8443
   reality-opts:
     public-key: ZRTNgwFRP8viY4SQOgPTfWlLWJCwY3dr0aawA7vHwhU
@@ -12,6 +20,21 @@ proxies:
   type: vless
   udp: true
   uuid: c05ec3c7-2784-da2b-aa98-a3c132860fcb
+- client-fingerprint: random
+  encryption: none
+  name: 🇷🇺RU_3|1.4MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM
+    short-id: '!!str 8937c9ed2d470352'
+  server: 46.254.19.164
+  servername: wtb.tems.bet
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0029
