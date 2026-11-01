@@ -89,6 +89,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇸🇪204441 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: awd7e2wmcz9zaoeb
+  password: 84kwheyd5evfdomw
+  port: 54753
+  server: 815mgcee.easyiran.org
+  sni: 815mgcee.easyiran.org
+  tls: false
+  type: hysteria2
 - name: '@KAFING_2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -107,15 +116,12 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '@FXxNET⚡️'
+- name: 🇩🇪DE-🚀@VPNine1
   obfs: salamander
   obfs-password: litevpn
   password: 59018379-d5df-4314-ab23-df0e838d7953
   port: 443
   server: 198.13.140.193
-  skip-cert-verify: false
   sni: efa11.lumariqis.com
   tls: false
   type: hysteria2
@@ -139,13 +145,6 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 🇳🇱204271 | ⚡️Telegram = t.me/S...
-  password: 6da2c981-8c77-4340-bda3-93399b7aea26
-  port: 443
-  server: 195.63.146.10
-  sni: video.blog-forme.ru
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@Cnetvpn 🇺🇲
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -154,14 +153,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 🇩🇪204269 | ⚡️Telegram = t.me/S...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.76.221.4
-  skip-cert-verify: true
-  sni: 3.76.221.4
   tls: false
   type: hysteria2
 - name: 🩵+@Azarakhsh_Proxy+🩷
@@ -266,7 +257,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: برای اتصال دائمی جوین شو🪭 Tele...
+- name: 🇧🇾204433 | ⚡️Telegram = t.me/S...
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.188.142
@@ -274,19 +265,12 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: 🇵🇱204266 | ⚡️Telegram = t.me/S...
+- name: 🇧🇾204438 | ⚡️Telegram = t.me/S...
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
-  server: 13.143.189.105
-  skip-cert-verify: true
-  sni: pl2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 🇵🇱204267 | ⚡️Telegram = t.me/S...
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.106
-  sni: pl2.nexfile.net
+  server: 13.143.188.143
+  skip-cert-verify: false
+  sni: bl1.nexfile.net
   tls: false
   type: hysteria2
 - name: '@KAFING_2 #2'
@@ -297,6 +281,20 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 🇳🇱NL-🚀@VPNine1
+  password: e48078c8-21ae-4d27-9438-b85492972894
+  port: 443
+  server: 84.245.18.209
+  sni: hy.gerqix.autos
+  tls: false
+  type: hysteria2
+- name: 🇩🇪204415 | ⚡️Telegram = t.me/S...
+  password: e5ec2586-59b3-40fa-91b7-bb37a2f7744e
+  port: 443
+  server: 45.88.12.26
+  sni: crt.onecloudstream.com
   tls: false
   type: hysteria2
 - name: '@vmess_ir'
@@ -676,91 +674,112 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: '1'
-  cipher: auto
-  name: 🇯🇵JP_1|1.4MB/s
-  network: tcp
-  port: '28788'
-  server: wo6ah0f-g06.jp06-jz-vm0.entry.fr0528.art
-  servername: wo6ah0f-g06.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- name: 🇳🇱NL_1|2.3MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 38963
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
   udp: true
-  uuid: a3b5a6fc-0b92-3b66-beda-eb2a49361a21
-  xudp: true
-- alterId: '1'
-  cipher: auto
-  name: 🇯🇵JP_2|4.9MB/s
-  network: tcp
-  port: '28786'
-  server: ou44bxs-g04.jp06-jz-vm0.entry.fr0528.art
-  servername: ou44bxs-g04.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- name: 🇯🇵JP_1|2.8MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 24133
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
   udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-  xudp: true
-- name: 🇪🇸ES_1|2.7MB/s
-  password: None
+- name: 🇰🇷KR_1|3.9MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 29628
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇸🇬SG_1|3.5MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 15589
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇹🇼TW_1|4.6MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 22003
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇹🇼TW_2|3.8MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 45502
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇹🇼TW_3|4.1MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 54815
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇺🇸US_1|3.4MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 26429
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇵🇹PT_1|1.1MB/s
   port: 443
-  server: 130.195.250.34
+  server: 149.22.86.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_1|1.0MB/s
+- name: 🇵🇹PT_2|2.2MB/s
+  password: None
+  port: 443
+  server: 149.22.86.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇪🇸ES_1|1.8MB/s
+  port: 443
+  server: 130.195.250.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_1|2.8MB/s
   password: None
   port: 9443
-  server: 213.177.229.161
+  server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇾CY_1|1001KB/s
+  username: null
+- name: 🇩🇪DE_1|1015KB/s
+  password: None
   port: 443
-  server: 213.207.130.34
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇮FI_1|1.8MB/s
-  network: xhttp
-  port: '61374'
-  reality-opts:
-    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-    short-id: ''
-  server: se-2.pythonsetupbib.online
-  servername: se-2.pythonsetupbib.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xhttp-opts:
-    host: se-2.pythonsetupbib.online
-    mode: packet-up
-    path: /
-    reuse-settings:
-      max-connections: '3'
-    x-padding-bytes: 100-500
-  xudp: true
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵JP_3|4.4MB/s
-  port: 21581
-  server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
+- name: 🇳🇴NO_1|1.3MB/s
+  password: None
+  port: 9443
+  server: 146.70.170.210
   skip-cert-verify: true
   tls: true
-  type: vmess
-  udp: true
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
-- name: 🇧🇩BD_1|1.5MB/s
-  password: ''
-  port: '1080'
-  server: 47.245.99.1
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+  type: http
+  username: null
 - client-fingerprint: chrome
   name: AT_speednode_0001
   network: ws
