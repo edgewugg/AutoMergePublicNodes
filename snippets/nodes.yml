@@ -159,7 +159,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: 🇯🇵JP_1|3.5MB/s
+- name: 日本1|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 24914
@@ -167,7 +167,6 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
 - name: 日本2|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
@@ -184,7 +183,7 @@ proxies:
   skip-cert-verify: true
   sni: wximg.qq.com
   type: trojan
-- name: 🇸🇬SG_2|3.6MB/s
+- name: 新加坡1|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 47966
@@ -192,7 +191,6 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
@@ -201,7 +199,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: 🇸🇬SG_1|3.8MB/s
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 37212
@@ -209,7 +207,6 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
 - name: 韩国1|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
@@ -218,7 +215,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: 🇰🇷KR_1|3.7MB/s
+- name: 韩国2|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 18572
@@ -226,64 +223,19 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸US_18|1.5MB/s
+- name: 美国1|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: '49049'
+  port: 49049
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: fe-static.deepseek.com
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_19|1.9MB/s
+- name: 美国2|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: '17285'
+  port: 17285
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_1|1.8MB/s
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: '38994'
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_2|2.9MB/s
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: '35929'
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-  udp: true
-- name: 🇳🇱NL_1|1.1MB/s
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 38963
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-  udp: true
-- name: 🇺🇸US_6|1.6MB/s
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 26429
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_11|2.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.222.142.112
-  type: ss
-  udp: true

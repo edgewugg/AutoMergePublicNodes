@@ -15,155 +15,22 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸US_18|1.5MB/s
+- name: 美国1|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: '49049'
+  port: 49049
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: fe-static.deepseek.com
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_19|1.9MB/s
+- name: 美国2|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: '17285'
+  port: 17285
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_1|1.8MB/s
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: '38994'
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_2|2.9MB/s
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: '35929'
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-  udp: true
-- name: 🇺🇸US_3|1.4MB/s
-  password: None
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|2.1MB/s
-  password: None
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|2.8MB/s
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|1.6MB/s
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 26429
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-  udp: true
-- name: 🇺🇸US_7|3.7MB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|1.9MB/s
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|2.1MB/s
-  password: None
-  port: 38182
-  server: 69.55.49.177
-  type: socks5
-  udp: true
-  username: null
-- name: 🇺🇸US_10|1.4MB/s|K001-260618
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_11|2.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.222.142.112
-  type: ss
-  udp: true
-- name: 🇺🇸US_12|2.6MB/s
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 443
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: 🇺🇸US_13|1.2MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_14|1.6MB/s
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_16|2.0MB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|2.6MB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_20|2.0MB/s
-  network: ws
-  port: '8443'
-  server: x9f2.guiming.net
-  servername: x9f2.guiming.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: cbf3b4be-b3a8-4f70-bd28-988e72f7d46d
-  ws-opts:
-    headers:
-      Host: x9f2.guiming.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /d8f3k2m9
-  xudp: true
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117
