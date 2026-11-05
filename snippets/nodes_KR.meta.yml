@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- name: 🇰🇷KR_1|1.1MB/s
+  password: VDJjbE0wUWxNMFE2Og
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+  username: VDJjbE0wUWxNMFE2Og
+- name: 🇰🇷KR_2|1.3MB/s
+  password: T2clM0QlM0Q6
+  port: '1090'
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  username: T2clM0QlM0Q6
