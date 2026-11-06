@@ -128,17 +128,3 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-- name: 🇸🇬SG_1|1.4MB/s
-  network: ws
-  port: '8880'
-  server: 172.64.150.28
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime29.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
