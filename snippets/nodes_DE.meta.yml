@@ -71,18 +71,6 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: '%2Fasdasd'
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_1|4.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: mhsl
-  port: '14444'
-  server: 88.99.213.222
-  skip-cert-verify: true
-  sni: 88.99.213.222
-  type: hysteria2
-  up: ''
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

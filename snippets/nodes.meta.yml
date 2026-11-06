@@ -205,18 +205,14 @@ proxies:
   sni: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: telegram:@pirozi_ArGaP
+- name: 🧫7@oneclickvpnkeys
   obfs: salamander
-  obfs-password: TYrQkc4C2MJMKlzlge0M_hrH
-  password: EOaHwQIGHSjmsbYl_g6nPanNsQ2td2Yv
+  obfs-password: HysteriaHowdy
+  password: HowdyHysteria2023w0W
   port: 8443
-  server: ip.immahan.ir
-  sni: tr.tu5pars.ir
+  server: 51.15.19.206
+  skip-cert-verify: true
+  sni: t.me
   tls: false
   type: hysteria2
 - name: 🩵+@Azarakhsh_Proxy+🩷
@@ -295,28 +291,12 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '@vpnbaz💞'
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.106
-  skip-cert-verify: false
-  sni: pl2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '@vpnbaz💕'
+- name: '@vasl_bashim #1'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.142
   skip-cert-verify: false
   sni: pl3.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '@vpnbaz🍓'
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.147
-  skip-cert-verify: false
-  sni: pl2.nexfile.net
   tls: false
   type: hysteria2
 - name: برای اتصال دائمی جوین شو🍥 Tele...
@@ -333,13 +313,6 @@ proxies:
   server: 13.143.189.96
   skip-cert-verify: false
   sni: pl3.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 🧿75@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 179.253.82.33
-  sni: fl3.nexfile.net
   tls: false
   type: hysteria2
 - name: 🧿92@oneclickvpnkeys
@@ -395,13 +368,6 @@ proxies:
   server: r5ycmuko.zibayeman.com
   skip-cert-verify: false
   sni: r5ycmuko.zibayeman.com
-  tls: false
-  type: hysteria2
-- name: 🍪13@oneclickvpnkeys
-  password: f4b80b26-b6d4-49a6-a460-f50efb7a457c
-  port: 443
-  server: 45.91.237.78
-  sni: node.aweom.su
   tls: false
   type: hysteria2
 - name: '@confiig_hub #1'
@@ -1121,144 +1087,21 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-- alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  down: '55'
-  name: 🇺🇸US_1|1.2MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 22335
-  server: 198.200.57.142
-  servername: bing.com
-  skip-cert-verify: true
-  sni: bing.com
-  tls: true
-  type: hysteria
-  up: '11'
-- name: 🇮🇹IT_1|1.0MB/s
-  port: 443
-  server: 185.183.105.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇱🇺LU_1|2.0MB/s
-  password: None
-  port: 443
-  server: 185.221.132.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_1|1.2MB/s
+- name: 🇸🇪SE_1|1.3MB/s
   password: None
   port: 443
   server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_1|1015KB/s
+- name: 🇱🇺LU_1|1.7MB/s
   password: None
   port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇴NO_1|2.1MB/s
-  password: None
-  port: 9443
-  server: 146.70.170.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇪EE_1|1.8MB/s
-  port: 9443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇸RS_1|2.5MB/s
-  password: ''
-  port: 443
-  server: 146.70.221.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇳🇱NL_1|2.2MB/s
-  password: None
-  port: 443
-  server: 149.36.51.129
+  server: 185.221.132.226
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇸🇪SE_2|2.3MB/s
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇭🇺HU_1|1.1MB/s
-  password: None
-  port: 443
-  server: 146.70.203.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_2|2.8MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_3|1.1MB/s
-  password: None
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇨🇿CZ_1|3.1MB/s
-  password: ''
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇪🇪EE_2|1.3MB/s
-  password: None
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_1|4.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: mhsl
-  port: '14444'
-  server: 88.99.213.222
-  skip-cert-verify: true
-  sni: 88.99.213.222
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  name: 🇺🇸US_2|3.5MB/s
-  network: tcp
-  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
-  port: '443'
-  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  skip-cert-verify: true
-  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   name: AT_speednode_0001
   network: ws
